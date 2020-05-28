@@ -1,0 +1,3 @@
+User-agent:*
+Allow:/
+Sitemap: http://whatiproject.com/sitemap.xml
