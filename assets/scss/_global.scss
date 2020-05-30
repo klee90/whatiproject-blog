@@ -1,19 +1,43 @@
 // 아래에 폰트를 불러오는 코드를 넣어주세요.
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
 // Global styling for this template
+html{
+  font-size: 10px !important;
+}
+
 body {
-  font-size: 20px;
+  font-size: 1.4rem !important;
   color: $gray-900;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 p {
   line-height: 1.5;
   margin: 0.7em 0;
-  font-size: 1rem !important;
+  font-size: 1.4rem !important;
   a {
     text-decoration: underline;
   }
+}
+h1{
+  font-size: 3.2rem !important;
+}
+
+h2{
+  font-size: 2.4rem !important;
+}
+h3{
+  font-size: 1.8rem !important;
+}
+h4{
+  font-size: 1.6rem !important;
+}
+h5{
+  font-size: 1.3rem !important;
+}
+h6{
+  font-size: 1.0rem !important;
 }
 
 h1,
@@ -39,13 +63,13 @@ blockquote {
 }
 
 .section-heading {
-  font-size: 25px;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-top: 60px;
 }
 
 .caption {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-style: italic;
   display: block;
   margin: 0;

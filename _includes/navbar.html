@@ -17,11 +17,18 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ "/posts" | relative_url }}">All Posts</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/development" | relative_url }}">Development</a>
+        <li class="nav-item dropdown">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="{{ "/whatilearn" | relative_url }}">What I learn</a>
+          <ul  class="dropdown-menu">
+            <li class="nav-item"><a class="nav-link" href="/whatilearn/html_css" href="{{ "/whatilearn/html_css" | relative_url }}">HTML & CSS</a></li>
+            <li class="nav-item"><a class="nav-link" href="/whatilearn/javascript" href="{{ "/whatilearn/javascript" | relative_url }}">Javascript</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/drawing" | relative_url }}">Drawing</a>
+        <li class="nav-item dropdown">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="{{ "/whatilike" | relative_url }}">What I like</a>
+          <ul  class="dropdown-menu">
+            <li class="nav-item"><a class="nav-link" href="/whatilike/drawing"  href="{{ "/whatilike/drawing" | relative_url }}">Drawing</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
