@@ -6,7 +6,7 @@ author:             "Kyungji Lee"
 baseurl:            "/"
 url:                "https://whatiproject.com"
 locale:             "ko_KR"
-thumbnail:          "/img/thumbnai.png"
+thumbnail:          "/img/thumbnail.png"
 
 # Social Profiles
 twitter_username:
