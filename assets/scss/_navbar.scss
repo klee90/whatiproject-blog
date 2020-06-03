@@ -42,20 +42,20 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $black;
+      color: $gray-500;
       &:focus,
       &:hover {
-        color: fade-out($gray-600, .2);
+        color: fade-out($gray-700, .2);
       }
     }
     .navbar-nav {
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: $black;
+          color: $gray-500;
           &:focus,
           &:hover {
-            color: fade-out($gray-600, .2);
+            color: fade-out($gray-700, .2);
           }
         }
       }
